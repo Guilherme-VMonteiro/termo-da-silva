@@ -1,0 +1,41 @@
+{
+   "letters": [
+      { "key": "a" },
+      { "key": "b" },
+      { "key": "c" },
+      { "key": "d" },
+      { "key": "e" },
+      { "key": "f" },
+      { "key": "g" },
+      { "key": "h" },
+      { "key": "i" },
+      { "key": "j" },
+      { "key": "k" },
+      { "key": "l" },
+      { "key": "m" },
+      { "key": "n" },
+      { "key": "o" },
+      { "key": "p" },
+      { "key": "q" },
+      { "key": "r" },
+      { "key": "s" },
+      { "key": "t" },
+      { "key": "u" },
+      { "key": "v" },
+      { "key": "w" },
+      { "key": "x" },
+      { "key": "y" },
+      { "key": "z" }
+   ],
+   "solutions": [
+      { "id": 1, "word": "bojas" },
+      { "id": 2, "word": "guiga" },
+      { "id": 3, "word": "bomba" },
+      { "id": 4, "word": "gamer" },
+      { "id": 5, "word": "corki" },
+      { "id": 6, "word": "tetas" },
+      { "id": 7, "word": "termo" },
+      { "id": 8, "word": "nuget" },
+      { "id": 9, "word": "soloq" }
+   ]
+}
