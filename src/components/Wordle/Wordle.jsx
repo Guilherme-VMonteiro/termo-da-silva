@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import useWorlde from "../../hooks/useWordle";
 import Grid from "../Grid/Grid";
 import Keypad from "../Keypad/Keypad";
+import { RiH1 } from "react-icons/ri";
 
 const Wordle = ({ solution }) => {
    const { currentGuess, handleKeyup, guesses, isCorrect, turn, usedKeys } =
@@ -28,6 +29,7 @@ const Wordle = ({ solution }) => {
    return (
       <div className="flex flex-col align-center text-center">
          {console.log(solution)}
+         {isCorrect && <h1>BOAA GAMER!</h1> }
          <Grid currentGuess={currentGuess} guesses={guesses} turn={turn} />
          <Keypad usedKeys={usedKeys} />
       </div>
