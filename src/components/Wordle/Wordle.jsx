@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import useWorlde from "../../hooks/useWordle";
 import Grid from "../Grid/Grid";
 import Keypad from "../Keypad/Keypad";
-import { RiH1 } from "react-icons/ri";
 
 const Wordle = ({ solution }) => {
    const { currentGuess, handleKeyup, guesses, isCorrect, turn, usedKeys } =
